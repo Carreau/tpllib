@@ -1,7 +1,0 @@
-{% extends "full.tpl" %}
-
-{% block in_prompt %}
-{% endblock in_prompt %}
-
-{% block out_prompt %}
-{% endblock out_prompt %}

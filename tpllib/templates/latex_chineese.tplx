@@ -1,0 +1,10 @@
+((*- extends 'document_contents.tplx' -*))
+
+((* block packages *))
+((( super() )))
+\usepackage{xeCJK}  % this and the following needed to support chinese language
+\setCJKmainfont[BoldFont=FandolSong-Bold.otf]{FandolSong-Regular.otf}
+\setCJKsansfont[BoldFont=FandolHei-Bold.otf]{FandolHei-Regular.otf}
+\setCJKmonofont{FandolFang-Regular.otf}
+\newCJKfontfamily\kaiti{FandolKai-Regular.otf} 
+((* endblock packages *))
